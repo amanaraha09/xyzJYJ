@@ -1,0 +1,180 @@
+@charset "utf-8";
+
+.r-tabs .r-tabs-nav {
+    margin: 0;
+    padding: 0;
+}
+
+.r-tabs .r-tabs-tab {
+    display: inline-block;
+    margin: 0;
+    list-style: none;
+}
+
+.r-tabs .r-tabs-panel {
+    padding: 15px;
+    display: none;
+}
+
+.r-tabs .r-tabs-accordion-title {
+    display: none;
+}
+
+.r-tabs .r-tabs-panel.r-tabs-state-active {
+    display: block;
+}
+
+/*tab_design*/
+.tabMenu { text-align:center; }
+.tabMenu li { display:inline-block; }
+.tabMenu li a { 
+	text-align:center; width:104px; height:23px; border:1px solid #000; display:inline-block; border-radius:12px; 
+	line-height:23px; text-transform:uppercase; box-sizing:border-box; font-family: Helvetica; font-weight:800; font-stretch:expanded; color:#000;
+}
+.tabMenu li .btn-1.active { background-color:#000; color:#fff; }
+.tabMenu li .btn-2 { margin-left:38px; }
+.tabMenu li .btn-2.active { background-color:#000; color:#fff; }
+.tabMenu li .btn-3 { margin-left:38px; }
+.tabMenu li .btn-3.active { background-color:#000; color:#fff; }
+/*tab_design*/
+
+.caution { display:block; text-align:center; font-size:12px; margin-top:87px; margin-bottom:10px; }
+
+/*xGen*/
+	#tab-1  {
+		width:1153px; height:760px; margin:0 auto; vertical-align:top; text-align:center;
+		 
+	}
+	#tab-1 .prod_xGen .firstLine_wrap { display:inline-block; float:left; height:108px; }
+	#tab-1 .prod_xGen .firstLine_wrap .BB { margin-top:63px; transition: 0.3s all; }
+	#tab-1 .prod_xGen .firstLine_wrap .BB:hover { transform:scale(1.1);}
+	#tab-1 .prod_xGen .firstLine_wrap .token { float:left; margin-top:25px; margin-left:13px; transition: 0.3s all; }
+	#tab-1 .prod_xGen .firstLine_wrap .token:hover { transform:scale(1.1); }
+
+	#tab-1 .prod_xGen .radio { float:left; margin-left:30px; margin-top:53px; transition: 0.3s all; }
+	#tab-1 .prod_xGen .radio:hover { transform:scale(1.1); }
+	#tab-1 .prod_xGen .walkman {  float:left; margin-left:10px; transition: 0.3s all; }
+	#tab-1 .prod_xGen .walkman:hover { transform:scale(1.1); }
+ 	#tab-1 .prod_xGen .hair { float:left; margin-top:103px; transition: 0.3s all; }
+	#tab-1 .prod_xGen .hair:hover { transform:scale(1.1); }
+
+	#tab-1 .prod_xGen .thirdLine_wrap { display:inline-block; float:left; margin-top:111px; margin-left:49px; transition: 0.3s all; }
+	#tab-1 .prod_xGen .thirdLine_wrap:hover { transform:scale(1.1); }
+	#tab-1 .prod_xGen .thirdLine_wrap .ticket01 { display:block; margin-left:0; margin-right:0; }
+	#tab-1 .prod_xGen .thirdLine_wrap .ticket02 { display:block; margin-left:0; margin-right:0; margin-top:18px }
+
+	#tab-1 .prod_xGen .phone { float:left; margin-top:24px; margin-left:40px; transition: 0.3s all; }
+	#tab-1 .prod_xGen .phone:hover { transform:scale(1.1); }
+	#tab-1 .prod_xGen .olympics { float:left; margin-left:41px; margin-top:27px; transition: 0.3s all; }
+	#tab-1 .prod_xGen .olympics:hover { transform:scale(1.1); }
+
+	#tab-1 .tit_xGen {
+		position:absolute; margin-top:255px; margin-left:302px;
+	}
+
+
+
+	#tab-1 .xGen_desc { margin:0 auto; display:inline-block; }
+	#tab-1 .xGen_desc .title_01 { color:#000; font-size:23px; margin-bottom:6px; margin-top:108px; }
+	#tab-1 .xGen_desc .line { width:22px; height:1px; background-color:#000; display:block; text-align:center; margin-left:48.5%; margin-top:13px; margin-bottom:17px;}
+	#tab-1 .xGen_desc .subtit_01 { font-size:16px; font-weight:500; color:#000; }
+	#tab-1 .xGen_desc .desc_01 { 
+		color:#000; font-size:14px; width:905px; 
+		display:inline-block; vertical-align:top; font-weight:400; line-height:24px;
+		margin-top:38px;
+	}
+	#tab-1 .xGen_desc .desc_01 .align_left { display:inline-block; text-align:right; height:111px; vertical-align:top; }
+	#tab-1 .xGen_desc .desc_01 .align_right { margin-left:21px; display:inline-block; text-align:left; }
+	/*xGen*/
+
+
+/*yGen*/
+	#tab-2 {
+		width:1174px; height:760px; margin:0 auto; vertical-align:top; text-align:center;
+		 
+	}
+	#tab-2 .prod_yGen .anycall { margin-left:21px; margin-top:25px; transition: 0.3s all; vertical-align:top; }
+	#tab-2 .prod_yGen .anycall:hover { transform:scale(1.1); }
+
+	#tab-2 .prod_yGen .dama { margin-top:17px; margin-left:39px; transition: 0.3s all; vertical-align:top;}
+	#tab-2 .prod_yGen .dama:hover { transform:scale(1.1); }
+
+	#tab-2 .prod_yGen .micky { margin-left:31px; margin-top:43px; transition: 0.3s all; vertical-align:top; }
+	#tab-2 .prod_yGen .micky:hover { transform:scale(1.1); }
+	#tab-2 .prod_yGen .worldcup {  margin-left:25px; margin-top:40px; transition: 0.3s all; }
+	#tab-2 .prod_yGen .worldcup:hover { transform:scale(1.1); }
+	#tab-2 .prod_yGen .cyworld { float:left; margin-top:2px; transition: 0.3s all; }
+	#tab-2 .prod_yGen .cyworld:hover { transform:scale(1.1); }
+	#tab-2 .prod_yGen .apolo { float:left; margin-top:131px; margin-left:28px; transition: 0.3s all; }
+	#tab-2 .prod_yGen .apolo:hover { transform:scale(1.1); }
+	#tab-2 .prod_yGen .zzon { float:left; margin-left:28px; margin-top:63px; transition: 0.3s all; }
+	#tab-2 .prod_yGen .zzon:hover { transform:scale(1.1); }
+
+	#tab-2 .prod_yGen .secondLine_wrap { display:inline-block;  margin-top:38px; margin-left:33px; }
+	#tab-2 .prod_yGen .secondLine_wrap .ball { display:block; margin-left:0; margin-right:0; transition: 0.3s all; }
+	#tab-2 .prod_yGen .secondLine_wrap .ball:hover { transform:scale(1.1); }
+
+	#tab-2 .prod_yGen .secondLine_wrap .shoes { display:block; margin-left:0; margin-right:0; margin-top:9px; transition: 0.3s all; }
+	#tab-2 .prod_yGen .secondLine_wrap .shoes:hover {transform:scale(1.1);}
+
+
+	#tab-2 .tit_yGen { position:absolute; margin-top:255px; margin-left:312px; }
+
+
+	#tab-2 .yGen_desc { margin:0 auto; display:inline-block; }
+	#tab-2 .yGen_desc .title_01 { color:#000; font-size:23px; margin-bottom:6px; margin-top:108px; }
+	#tab-2 .yGen_desc .line { width:22px; height:1px; background-color:#000; display:block; text-align:center; margin-left:48.5%; margin-top:13px; margin-bottom:17px;}
+	#tab-2 .yGen_desc .subtit_01 { font-size:16px; font-weight:500; color:#000; }
+	#tab-2 .yGen_desc .desc_01 { 
+		color:#000; font-size:14px; width:905px; 
+		display:inline-block; vertical-align:top; font-weight:400; line-height:24px;
+		margin-top:38px; margin-left:43px;
+	}
+	#tab-2 .yGen_desc .desc_01 .align_left { display:inline-block; text-align:right; height:111px; vertical-align:top; }
+	#tab-2 .yGen_desc .desc_01 .align_right { margin-left:21px; display:inline-block; text-align:left; }
+	/*yGen*/
+
+/*zGen*/
+	
+	#tab-3 {
+		width:1200px; height:760px; margin:0 auto; vertical-align:top; text-align:center;
+		 
+	}
+	#tab-3 .prod_zGen .youtube { margin-top:74px; transition: 0.3s all; vertical-align:top; }
+	#tab-3 .prod_zGen .youtube:hover { transform:scale(1.1); }
+
+	#tab-3 .prod_zGen .vr { margin-top:62px; margin-left:25px; transition: 0.3s all; vertical-align:top;}
+	#tab-3 .prod_zGen .vr:hover { transform:scale(1.1); }
+
+	#tab-3 .prod_zGen .mic { margin-left:30px; margin-top:68px; transition: 0.3s all; vertical-align:top; }
+	#tab-3 .prod_zGen .mic:hover { transform:scale(1.1); }
+	#tab-3 .prod_zGen .ai {  margin-left:30px; margin-top:54px; transition: 0.3s all; }
+	#tab-3 .prod_zGen .ai:hover { transform:scale(1.1); }
+ 	#tab-3 .prod_zGen .smartphone { margin-top:13px; margin-left:9px; transition: 0.3s all; }
+	#tab-3 .prod_zGen .smartphone:hover { transform:scale(1.1); }
+	#tab-3 .prod_zGen .tab { margin-top:152px; margin-left:23px; transition: 0.3s all; }
+	#tab-3 .prod_zGen .tab:hover { transform:scale(1.1); }
+	#tab-3 .prod_zGen .camera {  margin-left:27px; margin-top:157px; transition: 0.3s all; }
+	#tab-3 .prod_zGen .camera:hover { transform:scale(1.1); }
+	#tab-3 .prod_zGen .long { margin-left:28px; margin-top:27px; transition: 0.3s all; }
+	#tab-3 .prod_zGen .long:hover { transform:scale(1.1); }
+
+
+	#tab-3 .tit_zGen {
+		position:absolute; margin-top:255px; margin-left:325px;
+	}
+
+
+
+	#tab-3 .zGen_desc { margin:0 auto; display:inline-block; }
+	#tab-3 .zGen_desc .title_01 { color:#000; font-size:23px; margin-bottom:6px; margin-top:108px; }
+	#tab-3 .zGen_desc .line { width:22px; height:1px; background-color:#000; display:block; text-align:center; margin-left:48.5%; margin-top:13px; margin-bottom:17px;}
+	#tab-3 .zGen_desc .subtit_01 { font-size:16px; font-weight:500; color:#000; }
+	#tab-3 .zGen_desc .desc_01 { 
+		color:#000; font-size:14px; width:905px; 
+		display:inline-block; vertical-align:top; font-weight:400; line-height:24px;
+		margin-top:38px; margin-left:43px;
+	}
+	#tab-3 .zGen_desc .desc_01 .align_left { display:inline-block; text-align:right; height:111px; vertical-align:top; }
+	#tab-3 .zGen_desc .desc_01 .align_right { margin-left:21px; display:inline-block; text-align:left; }
+	/*zGen*/

@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title> 우리들의 XYZ </title>
+	<link rel="stylesheet" href="../css/reset.css" />
+	<link rel="stylesheet" href="../css/common.css" />
+	<script src="../js/jquery-2.2.4.min.js"></script>
+	<script src="../js/ui.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
+
+	  <style>
+   
+		.swiper-container {
+
+		    width: 1166px;
+		    height: 573px;
+		    margin-top:123px;
+		    
+		}
+		.swiper-slide {
+		    text-align: center;
+		    top:0; font-size:0;
+
+		}
+		.swiper-slide .prod { display:inline-block; text-align:center; box-shadow:3px 3px 6px rgba(0,0,0,0.2);  }
+		.swiper-slide .slideTitle strong { font-size:16px; color:#000; }
+		.swiper-slide .slideTitle p { font-size:14px; margin-top:32px; margin-bottom:46px; color:#000; }
+		.swiper-slide .prod .tiT { font-size:16px; font-weight:500; position:absolute; color:#fff; line-height:41px; width:312px; text-align:center;}
+		.swiper-slide .prod .tit_desc { position: absolute; color:#000; font-size:12px; text-align:center; width:312px; margin-top:310px;}
+		.swiper-slide .prod .tit_desc strong {font-size:16px;}
+		.swiper-slide .prod .tit_desc p {margin-top:17px;}
+
+		.prod.xGen {margin-right:22px;}
+		.prod.yGen {margin-right:22px;}
+
+		
+		.swiper-button-next, .swiper-container-rtl .swiper-button-prev {background-image: url(../images/ico_next_right.png); }
+		.swiper-button-prev, .swiper-container-rtl .swiper-button-next {background-image: url(../images/ico_next_left.png); }
+		.swiper-button-next, .swiper-button-prev { background-size: 27px 27px; cursor:pointer; }
+
+		.swiper-pagination { margin-top:93px; }
+
+		
+		.swiper-pagination-bullet { border:1px solid #000; background-color:#fff; box-sizing:border-box; opacity:100%; }
+		.swiper-pagination-bullet-active { background-color:#000; }
+
+  </style>
+</head>
+<body>
+	<!-- s:header -->
+	<header id="header_container">
+		
+		<div class="header_inner">
+			<h1 class="logo"><a href="#"><img src="../images/img_logo.png" alt="xyz" /><img src="../images/img_logo_hover.png" alt="xyz" /></a></h1>
+			<nav class="gnb_wrap">
+				<ul>
+					<li class="N1"><a href="#Gen_wrap">그때 우리는</a></li>
+					<li class="N2"><a href="#xyzInfo">우리의 공통분모</a></li>
+					<li class="N3"><a href="#fight_wrap">세대갈등</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<!-- e:header -->
+	<!-- s:body -->
+	<div id="body_container" class="main_page">
+	<!-- s: mainBanner -->
+		<section class="mainBanner_wrap">
+			<img src="../images/img_bg01.png" />
+			<h2 class="main_title">“나 때는 말이야..”<br>“언제 적 얘기를 하는 거예요?”</h2>
+			<p class="main_desc"> 우리는 가정, 학교, 직장 내에서 여러 세대와 함께 살아가며, 사회를 구성한다. 그러나 우리에겐 왠지 모를 거리감이<br>존재하고, 자신과 다른 세대의 사람들을 좀처럼 이해할 수 없어 한다. '우리도 우리만의 문화가 있는데...' 하며<br>갈등은 더 심해져만 간다. 이때, 자신의 세대만의 트렌드를 생각하기보단 엄마, 아빠, 언니, 선생님의 세대를 함께<br>생각해보는 것은 어떨까? 의외로 비슷한 점에서 생각지도 못한 공감과 재미를 느낄 것이고, 다른 점에서는 신기하고<br>특이하기도 할 것이며 오히려 다른 세대 트렌드에서 나의 취향을 찾아갈지도 모른다. </p>
+		</section>
+	<!-- e: mainBanner -->
+
+	
+	<!-- s: generation -->		
+		<div id="Gen_wrap">
+			<div class="Gen_inner tabWrap">
+				<div id="responsiveTabsDemo" class="tabMenu">
+					<ul>
+						<li><a href="#tab-1" class="btn-1 active">x</a></li>
+						<li><a href="#tab-2" class="btn-2">y</a></li>
+						<li><a href="#tab-3" class="btn-3">z</a></li>
+					</ul>
+				</div>
+
+				<span class="caution">↓흥미로운 물건에 마우스를 올려보세요↓</span>
+
+				<div id="tab-1" class="tabContent">
+					<div class="tit_xGen"><img src="../images/img_generationX.png"></div>
+					<div class="prod_xGen">
+			
+						<div class="firstLine_wrap">
+							<div class="BB">
+								<div class="Name name01">
+									<span>삐삐</span>	
+									<p>= 무선호출기</p>
+								</div>
+								<img src="../images/img_BB.png" />
+							</div>
+							<div class="token">
+								<div class="Name name04">
+									<span>토큰</span>	
+									<p>= 버스 탈 때</p>
+								</div>
+								<img src="../images/img_token.png" />
+							</div>
+						</div>
+
+						<div class="radio">
+							<div class="Name name02">
+								<span>라디오</span>	
+								<p>= 엽서로 사연을 보내던</p>
+							</div>
+							<img src="../images/img_radio.png" />
+						</div>
+						
+						<div class="walkman">
+							<div class="Name name03">
+								<span>워크맨</span>	
+								<p>= CD 플레이어</p>
+							</div>
+							<img src="../images/img_walkman.png" />
+						</div>
+						
+						<br>
+
+						<div class="hair">
+							<div class="Name name05">
+								<span>곱창 머리끈</span>	
+								<p>= 머리 장식 필수템</p>
+							</div>
+							<img src="../images/img_hair.png" />
+						</div>
+						
+						<div class="thirdLine_wrap">
+							<div class="Name name06">
+								<span>회수권</span>	
+								<p>= 버스 탈 때 2</p>
+							</div>
+							<img src="../images/img_ticket01.png" class="ticket01" /><img src="../images/img_ticket02.png" class="ticket02" />
+						</div>
+
+						<div class="phone">
+							<div class="Name name07">
+								<span>시티폰</span>	
+								<p>= 여보세요~?</p>
+							</div>
+							<img src="../images/img_phone.png"/>
+						</div>
+
+						<div class="olympics">
+							<div class="Name name075">
+								<span>88올림픽</span>	
+								<p>= 서울에서 개최된 하계 올림픽</p>
+							</div>
+							<img src="../images/img_88.png" />
+						</div>
+						
+						
+					</div>
+
+					<div class="xGen_desc">
+						<h3 class="title_01">X세대</h3>
+						<div class="line"></div>
+						
+						<span class="subtit_01">대중문화의 꽃을 피운 세대</span>
+						<br>
+						<div class="desc_01">
+							<p class="align_left"> 대체적으로 1960년대 초에서 1980년대 초 사이, 늦어도 1984년 이전에<br>태어난 세대이다. 삶에 대한 의욕을 상실한 채 방황하는 젊은이들이 등장하는<br>소설인 'X세대, Generation X'(작가. 더글러스 커플랜드)에서 유래되었으며,<br>마케팅 업계에서 기성세대와 확연히 다르지만 마땅히 정의하기 힘든<br>이 세대를 X세대라 부르기 시작했다.</p>
+							<p class="align_right"> 60-70년대에 태어나 90년대에 20대 또는 30대였던 X세대는 컬러 TV와<br>함께 성장해서 1990년대 국내 대중문화의 부흥을 이끌어냈다. 이로써<br>X세대는 대중문화의 꽃을 피운 세대로 통한다. 홍콩 영화를 즐긴 다문화 시대의<br>수혜자이기도 하며, X세대는 가장 진보적인 세대라는 평가를 듣기도 하였다.<br>90년대에 새로운 바람의 패션 트렌드가 불기 시작하며, 언밸런스,<br>밀리터리의 특징이 짙은 반항적인 옷들로 개성을 자유분방하게 표출했다.</p>
+						</div>	
+					</div>
+				</div>
+
+				<div id="tab-2" class="tabContent">
+					<div class="tit_yGen"><img src="../images/img_generationY.png"></div>
+					<div class="prod_yGen">
+						<div class="anycall" >
+							<div class="Name name08">
+								<span>애니콜</span>	
+								<p>= 애니콜 매직홀 피쳐폰</p>
+							</div>
+							<img src="../images/img_anycall.png" />
+						</div>
+						<div class="dama">
+							<div class="Name name09">
+								<span>다마고치</span>	
+								<p>= 육성 시뮬레이션 게임</p>
+							</div>
+							<img src="../images/img_dama.png" />
+						</div>
+						<div class="micky">
+							<div class="Name name10">
+								<span>mp3 플레이어</span>	
+								<p>= 디즈니와의 콜라보</p>
+							</div>
+							<img src="../images/img_mp3.png" />
+						</div>
+						<div class="worldcup">
+							<div class="Name name11">
+								<span>2002 월드컵</span>	
+								<p>= 4강 진출과 붉은 악마</p>
+							</div>
+							<img src="../images/img_2002.png" />
+						</div>
+						
+						<br>
+						<div class="cyworld">
+							<div class="Name name12">
+								<span>싸이월드</span>	
+								<p>= 일촌 관계 서비스</p>
+							</div>
+							<img src="../images/img_cyworld.png" />
+						</div>
+						<div class="apolo">
+							<div class="Name name13">
+								<span>아폴로</span>	
+								<p>= 빨대 과자</p>
+							</div>
+							<img src="../images/img_apolo.png" />
+						</div>
+						<div class="zzon">
+							<div class="Name name14">
+								<span>쫀드기</span>	
+								<p>= 문방구에서 사먹던 불량식품</p>
+							</div>
+							<img src="../images/img_zzon.png" />
+						</div>
+						<div class="secondLine_wrap">
+							<div class="ball">
+								<div class="Name name15">
+								<span>캐치볼</span>	
+								<p>= 찍찍이</p>
+							</div>
+								<img src="../images/img_balll.png" />
+							</div>
+							<div class="shoes">
+								<div class="Name name16">
+								<span>젤리슈즈</span>	
+								<p>= 여름 패션 아이템</p>
+							</div>
+								<img src="../images/img_shoes.png" />
+							</div>
+						</div>
+					</div>
+					<div class="yGen_desc">
+						<h3 class="title_01">Y세대</h3>
+						<div class="line"></div>
+						
+						<span class="subtit_01">욜로라이프를 추구하는 세대</span>
+						<br>
+						<div class="desc_01">
+							<p class="align_left"> 1980년대 ~1990년대 사이 출생으로 80-90년대 출생의 세대이다.<br>보험회사 프루덴셜사가 미국 청소년들을 대상으로 실시한<br>지역사회봉사활동 실태조사 보고서에서 처음으로 사용했다.<br>푸르덴셜사는 당시 청소년들이 매사에 긍정적이고 참여적이어서 누가<br>어떤 일을 시켜도 "Yes"라고 대답한다 해서 Y세대라고 불렀다고 한다.  </p>
+							<p class="align_right"> 커리어나 돈이 아닌, 의미 있는 무언가가 Y세대를 행복하게 만든다고<br>분석했으며 실제로의 설문조사 결과에서도 즐거운 삶, 경제적인 부, 연인과의<br>사랑보다 마음의 평안을 가장 중요하게 생각하고 있다. 이렇게 등장하게 된<br>언어, '욜로 라이프(YOLO, You Only Live Once)'를 추구하는 Y세대. '지금 이<br>순간'의 행복을 위해서라면 돈을 쓰는 것을 마다하지 않기 때문에 욜로족,<br>워라밸(Work-life balance) 등 수많은 신조어를 쏟아냈다.</p>
+						</div>	
+					</div>
+				</div>
+
+				<div id="tab-3" class="tabContent">
+					<div class="tit_zGen"><img src="../images/img_generationZ.png"></div>
+					<div class="prod_zGen">
+						<div class="youtube">
+							<div class="Name name17">
+								<span>유튜브</span>	
+								<p>= 세계 최대 동영상 공유 사이트</p>
+							</div>
+							<img src="../images/img_youtube.png" />
+						</div>
+						<div class="vr">
+							<div class="Name name18">
+								<span>VR 기기</span>	
+								<p>= 가상현실</p>
+							</div>
+							<img src="../images/img_vr.png" />
+						</div>
+						<div class="mic">
+							<div class="Name name19">
+								<span>ASMR</span>	
+								<p>= 일상소음 / 백색소음</p>
+							</div>
+							<img src="../images/img_mic.png" />
+						</div>
+						<div class="ai">
+							<div class="Name name20">
+								<span>인공지능</span>	
+								<p>= Hey siri</p>
+							</div>
+							<img src="../images/img_ai.png" />
+						</div>
+						
+						<br>
+
+						<div class="smartphone">
+							<div class="Name name21">
+								<span>스마트폰</span>	
+								<p>= 갤럭시, 아이폰 등..</p>
+							</div>
+							<img src="../images/img_smartphone.png" />
+						</div>
+						<div class="tab">
+							<div class="Name name22">
+								<span>태블릿 PC</span>	
+								<p>= 휴대용 pc</p>
+							</div>
+							<img src="../images/img_tab.png" />
+						</div>
+						<div class="camera">
+							<div class="Name name23">
+								<span>휴대용 카메라</span>	
+								<p>= 작고 가벼운 카메라</p>
+							</div>
+							<img src="../images/img_camera.png" />
+						</div>
+						<div class="long">
+							<div class="Name name24">
+								<span>롱패딩</span>	
+								<p>= 겨울 패션 아이템</p>
+							</div>
+							<img src="../images/img_long.png" />
+						</div>
+						
+					</div>
+					<div class="zGen_desc">
+						<h3 class="title_01">Z세대</h3>
+						<div class="line"></div>
+						
+						<span class="subtit_01">디지털 네이티브</span>
+						<br>
+						<div class="desc_01">
+							<p class="align_left"> 97년생 출생부터 시작된 세대들로 X세대의 자녀들이다. 언제, 어디서나<br>인터넷을 사용하며 기기 사용이 능숙해 멀티태스킹이 가능하고<br>즉각적인 피드백과 반응을 즐기는 성향이 있다. 2005년 출범한<br>유튜브와 함께 자라 '유튜브 세대'로도 불린다. 해외에서 조사된 자료에<br>따르면, 66%의 Z세대들이 유튜브를 사용하다고 한다.</p>
+							<p class="align_right"> 모바일로 영상을 보는 것을 선호하기 때문에 TV 스타보다 모바일에서 가까이<br>접할 수 있는 소설 인플루언서(영향력자) 또는 유튜브 크리에이터의<br>영향력이 굉장히 높다. 이러한 트렌드를 반영하여, 최근 MBC는 2018 러시아<br>월드컵에서 아프리카TV의 축구 전문 BJ를 섭외해 온라인 중계방송을 동시에<br>진행했고 그 결과 개막전 중계방송은 엄청난 관심을 끌 수 있었다. 유튜브 등<br>개인 방송에 국한되었던 크리에이터가 지상파에서도 빛을 보고 있는 현상은<br>연예인 중심의 영향력이 단 하나의 개성을 가진 크리에이터로 옮겨오고<br>있다는 것을 의미한다. </p>
+						</div>	
+					</div>
+				</div>
+			</div>
+		</div>
+	<!-- e: generation -->
+
+	<!-- s: xyzInfo -->
+		<div id="xyzInfo">
+			<div class="Info_desc">
+				<img src="../images/img_xyz_font.png" class="xyz_title" />
+				<p class="xyz_desc"> 사실 확실하게 정의하고 분류할 수 있는 세대는 없다. Y세대이지만 Z세대의 가장 대표적인 유튜브를 여가 시간에 사용하고,<br>X세대의 휴대용 카세트 플레이어를 사용한 사람이 존재할 수 있고, Z세대의 용어는 잘 모르겠지만 롱패딩을 입고 다니며<br>ASMR 방송을 들으며 잠이 드는 X세대도 분명히 존재한다. 세대 간의 문물을 나누고 분류하는 순간 세대 갈등은 나타난다.<br>그렇기에, 한 때 트렌드를 끌었던 우리들, 서로의 공통분모를 찾아보자.</p>
+			</div>
+		</div>
+	<!-- e: xyzInfo -->
+
+
+	<!-- s: xyz? -->
+		<div class="swiper-container">
+	    <div class="swiper-wrapper">
+	      <div class="swiper-slide">
+	      	<div class="slideTitle"> 
+	      		<strong>음악듣기</strong>
+	      		<p>음악을 밖에서도 듣고 싶을 때 당시 헤드셋/이어폰 연결이 가능하게 해준 여러 매체들을 이용하였다.</p>
+	      	</div>
+	      	<div class="prod xGen">
+	      		<span class="tiT">X세대</span>
+	      		<div class="tit_desc">
+	      			<strong>워크맨</strong>
+	      			<p>SONY 사의 CD 플레이어</p>
+	      		</div>
+	      		<img src="../images/ca_player.png">
+	      	</div>
+	      	<div class="prod yGen">
+	      		<span class="tiT">Y세대</span>
+	      		<div class="tit_desc">
+	      			<strong>mp3 플레이어</strong>
+	      			<p>아이리버 사의 디즈니 mp3 플레이어</p>
+	      		</div>
+	      		<img src="../images/ca_mp3.png">
+	      	</div>
+	      	<div class="prod zGen">
+	      		<span class="tiT">Z세대</span>
+	      		<div class="tit_desc">
+	      			<strong>스마트폰</strong>
+	      			<p>음악 어플을 사용하거나 다운받는다.</p>
+	      		</div>
+	      		<img src="../images/ca_phone.png">
+	      	</div>
+
+
+	      </div>
+	      <div class="swiper-slide">
+	      	<div class="slideTitle"> 
+	      		<strong>유행 매체</strong>
+	      		<p>자신의 지인과 연결되어있고 싶어 하는 마음과 서로의 안부를 주고받는 문화가 여러 방식으로 나타났다.</p>
+	      	</div>
+	      	<div class="prod xGen">
+	      		<span class="tiT">X세대</span>
+	      		<div class="tit_desc">
+	      			<strong>삐삐</strong>
+	      			<p>숫자로만 소통가능하던 매체</p>
+	      		</div>
+	      		<img src="../images/ca_BB.png">
+	      	</div>
+	      	<div class="prod yGen">
+	      		<span class="tiT">Y세대</span>
+	      		<div class="tit_desc">
+	      			<strong>싸이월드</strong>
+	      			<p>미니홈피가 유행이었던 사이트</p>
+	      		</div>
+	      		<img src="../images/ca_cyworld.png">
+	      	</div>
+	      	<div class="prod zGen">
+	      		<span class="tiT">Z세대</span>
+	      		<div class="tit_desc">
+	      			<strong>유튜브</strong>
+	      			<p>크리에이터들의 영상 사이트</p>
+	      		</div>
+	      		<img src="../images/ca_youtube.png">
+	      	</div>
+	      </div>
+	      <div class="swiper-slide">
+	      	<div class="slideTitle"> 
+	      		<strong>연애쇼 프로그램</strong>
+	      		<p>일반인들의 연애를 다룬 프로그램으로 사랑이란 주제의 예능 프로그램은 꾸준한 인기를 보여준다.</p>
+	      	</div>
+	      	<div class="prod xGen">
+	      		<span class="tiT">X세대</span>
+	      		<div class="tit_desc">
+	      			<strong>사랑의 스튜디오</strong>
+	      			<p>1994-2001, MBC 방영</p>
+	      		</div>
+	      		<img src="../images/ca_love.png">
+	      	</div>
+	      	<div class="prod yGen">
+	      		<span class="tiT">Y세대</span>
+	      		<div class="tit_desc">
+	      			<strong>좋은 사람 소개시켜줘</strong>
+	      			<p>2005-2006, KBS 방영</p>
+	      		</div>
+	      		<img src="../images/ca_good.png">
+	      	</div>
+	      	<div class="prod zGen">
+	      		<span class="tiT">Z세대</span>
+	      		<div class="tit_desc">
+	      			<strong>하트시그널 시즌</strong>
+	      			<p>3개월 간 시즌제, 채널 A방영</p>
+	      		</div>
+	      		<img src="../images/ca_heart.png">
+	      	</div>
+	      </div>
+	      <div class="swiper-slide">
+	      	<div class="slideTitle"> 
+	      		<strong>서바이벌 오디션 프로그램</strong>
+	      		<p>가수들을 양성하는 프로그램인 서바이벌 오디션 프로그램은 과거에서부터 지금까지 진행되고 있으며, 매 프로그램마다 큰 인기를 끌고 있다.</p>
+	      	</div>
+	      	<div class="prod xGen">
+	      		<span class="tiT">X세대</span>
+	      		<div class="tit_desc">
+	      			<strong>대학가요제</strong>
+	      			<p>1977-2012, MBC 방영</p>
+	      		</div>
+	      		<img src="../images/ca_campus.png">
+	      	</div>
+	      	<div class="prod yGen">
+	      		<span class="tiT">Y세대</span>
+	      		<div class="tit_desc">
+	      			<strong>슈퍼스타K</strong>
+	      			<p>2009-2016, Mnet/tvN 방영</p>
+	      		</div>
+	      		<img src="../images/ca_super.png">
+	      	</div>
+	      	<div class="prod zGen">
+	      		<span class="tiT">Z세대</span>
+	      		<div class="tit_desc">
+	      			<strong>프로듀스 101 시즌</strong>
+	      			<p>3개월 간 시즌제, Mnet 방영</p>
+	      		</div>
+	      		<img src="../images/ca_produ.png">
+	      	</div>
+	      </div>
+	      <div class="swiper-slide">
+	      	<div class="slideTitle"> 
+	      		<strong>유행어</strong>
+	      		<p>어느 한 세대가 자신들만의 유행어를 쓴다면, 그냥 유행어는 유행어대로 받아들이고 인정해주는 자세는 필수다. </p>
+	      	</div>
+	      	<div class="prod xGen">
+	      		<span class="tiT">X세대</span>
+	      		<div class="tit_desc">
+	      			<strong>삐삐 용어</strong>
+	      			<p>삐삐를 쓰면 자주 쓰이던 숫자들</p>
+	      		</div>
+	      		<img src="../images/ca_x.png">
+	      	</div>
+	      	<div class="prod yGen">
+	      		<span class="tiT">Y세대</span>
+	      		<div class="tit_desc">
+	      			<strong>줄임말</strong>
+	      			<p>미니홈피나 게임에서 자주 쓰이던 단어들</p>
+	      		</div>
+	      		<img src="../images/ca_y.png">
+	      	</div>
+	      	<div class="prod zGen">
+	      		<span class="tiT">Z세대</span>
+	      		<div class="tit_desc">
+	      			<strong>급식체</strong>
+	      			<p>초성단위로 줄이는 경우가 많다.</p>
+	      		</div>
+	      		<img src="../images/ca_z.png">
+	      	</div>
+	      </div>
+	    </div>
+	    <!-- Add Pagination -->
+	    <div class="swiper-pagination"></div>
+	    <!-- Add Arrows -->
+	    <div class="swiper-button-next"></div>
+	    <div class="swiper-button-prev"></div>
+	  </div>
+
+	  <!-- Swiper JS -->
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
+
+	  <!-- Initialize Swiper -->
+	  <script>
+	    var swiper = new Swiper('.swiper-container', {
+	      loop: true,
+	      pagination: {
+	        el: '.swiper-pagination',
+	        type: 'bullets',
+	      },
+	      navigation: {
+	        nextEl: '.swiper-button-next',
+	        prevEl: '.swiper-button-prev',
+	      },
+	    });
+	  </script>
+
+	<!-- e: xyz? -->
+
+	<!-- s: conflict -->
+		<section id="fight_wrap">
+			<div class="fight_desc">
+				
+				<h4 class="title_04">세대 갈등</h4>
+				<span class="subtit_03">그리고 우리 모두가 해야할 일</span>
+			</div>
+			<div class="fight_kind">
+				
+				<div id="fightPart" class="family">
+					<span class="fight_subtit">가정 내 갈등</span>
+					<p class="fight_desc"> 2015년 한국보건사회연구원의 가족 변화에 다른 가족 갈등 양상과 정책 과제에<br>따르면 가족 갈등의 유형 중 가족 내 세대 갈등이 압도적으로 높은 비중을<br>차지하고 있으며, 세대 갈등에서도 부모와 자녀 갈등이 28.3%로<br>가장 많았다고 한다.</p>
+				</div>
+				<div id="fightPart" class="company">
+					<span class="fight_subtit">직장 내 갈등</span>
+					<p class="fight_desc">"'하면 된다'라는 정신으로 무장한 임원급 세대들은 젊은 세대를 '무개념'이라<br>무시하고, 삶의 질을 추구하는 젊은 세대는 임원급 세대를 '꼰대'라 불신한다."<br>이 말처럼 현재 기업 내 각 세대는 서로를 불신하는 자세가 있으며 이러한 자세로<br>조직문화 개선에 어려움을 겪고 있다고 한다.</p>
+				</div>
+
+				
+				
+			</div>
+
+			<div class="solve_wrap">
+				<div class="desc_07">
+					<p class="first"> 우리는 현대 사회에서 부모 세대나 자녀 세대가 겪어왔던 사회적 배경을 이해하고 인정해야 한다. 꽉막힌 것처럼만 보였던 상사가 살아왔던 배경은, 인내심이 부족해 보이는<br>신입사원이 살아왔던 배경과는 전혀 다르다. 엄연히 다른 사회적 배경은 그들의 성향도 다르게 만든다. 디지털에 익숙한 시대를 살아와 인터넷을 적극적으로 사용하고<br>조직보단 개인을 중시하며 자유, 개성 등의 가치를 중시하는 세대와 예의와 순서를 중요시 여겼던 시대를 살아온 기성세대는 당연히 성향이 다를 수밖에 없는 것이다.</p>
+					<p class="second">그러나 앞서 당시 트렌드를 생각하면서 결국 현재와의 공통점을 찾았던 것처럼, 서로의 공통분모를 찾기 위해 노력한다면 분명히 이해와 공감이 가능해진다. '사실 그들도<br>우리와 다를 바가 없었다.'라는 마인드는 우리가 매일 느꼈던 세대 차이와 그로 인해 일어났던 세대 갈등을 완화시키고 화목한 분위기를 조성한다.</p>
+					
+				</div>
+				<a href="#Gen_wrap" class="btn_secNav">공통분모 다시보기</a>
+				
+			</div>
+
+		</section>
+	<!-- e: conflict -->
+	<!-- s: footer-->
+		<div class="last_wrap">
+			<img src="../images/img_artwork_bottom.png" />
+				
+		</div>
+	<!-- e: footer -->
+			
+	</div>
+
+	<!-- e:body -->
+</body>	
+</html>
